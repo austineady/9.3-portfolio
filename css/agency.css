@@ -456,6 +456,21 @@ section h3.section-subheading {
   margin-top: 12px;
   line-height: 14px;
 }
+.timeline > li .developer {
+  background-image: url('../img/about/developer.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.timeline > li .learner {
+  background-image: url('../img/about/learner.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.timeline > li .friend {
+  background-image: url('../img/about/friend.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   text-align: left;

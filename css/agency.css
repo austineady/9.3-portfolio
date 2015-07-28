@@ -278,6 +278,17 @@ header .container {
   background-position: center center;
   width: 100%;
 }
+@media (max-width: 400px) {
+  header .container {
+    background-image: url('../img/mountains3.png');
+    background-attachment: scroll;
+    background-position: center center;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 218px;
+  }
+}
 section {
   padding: 100px 0;
 }
@@ -758,7 +769,7 @@ body {
   transition: 1s;
 }
 .btn-circle:hover {
-  background-color: white;
-  color: #363434;
+  border: 1px solid #fed136;
+  color: #fed136;
   transition: 1s;
 }

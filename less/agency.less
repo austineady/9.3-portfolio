@@ -222,6 +222,18 @@ header .container {
 	width: 100%;
 }
 
+@media(max-width:400px) {
+	header .container {
+		background-image: url('../img/mountains3.png');
+		background-attachment: scroll;
+		background-position: center center;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 218px;
+	}
+}
+
 // Global Section Styles
 
 section {
@@ -755,8 +767,8 @@ body {
 	line-height: 90px;
 	transition: 1s;
 	&:hover {
-		background-color: white;
-		color: @gray-darkest;
+		border: 1px solid @brand-primary;
+		color: @brand-primary;
 		transition: 1s;
 	}
 }

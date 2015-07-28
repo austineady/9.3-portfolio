@@ -320,6 +320,12 @@ section h3.section-subheading {
   background-attachment: scroll;
   background-position: center center;
 }
+#portfolio .section-heading {
+  color: #fafafa;
+}
+#portfolio h3.section-subheading {
+  color: rbga(250, 250, 250, 1);
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -778,4 +784,20 @@ body {
   border: 1px solid #fed136;
   color: #fed136;
   transition: 1s;
+}
+.project-features {
+  font-size: 17px;
+  text-align: left;
+}
+.project-option {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #363434;
+  color: #fafafa;
+  border: 0;
+  border-radius: 3px;
 }

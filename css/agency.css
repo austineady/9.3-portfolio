@@ -323,8 +323,11 @@ section h3.section-subheading {
 #portfolio .section-heading {
   color: #fafafa;
 }
-#portfolio h3.section-subheading {
+#portfolio h3 {
   color: rbga(250, 250, 250, 1);
+}
+#portfolio .text-muted {
+  color: #fafafa;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;

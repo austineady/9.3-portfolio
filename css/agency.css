@@ -183,9 +183,12 @@ fieldset[disabled] .btn-xl.active {
   color: #ffb300;
   outline: none;
 }
+.navbar-default .navbar-nav > a {
+  color: #363434;
+}
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
+  color: #363434;
   background-color: #ffb300;
 }
 .navbar-default .navbar-nav > .active > a:hover,
@@ -210,12 +213,15 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
+    color: white;
   }
   .navbar-default.navbar-shrink {
-    background-color: #363434;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
+    color: white;
     font-size: 2em;
   }
 }

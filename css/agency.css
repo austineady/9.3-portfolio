@@ -336,6 +336,7 @@ section h3.section-subheading {
   color: #777777;
 }
 #portfolio .portfolio-item {
+  display: inline-block;
   margin: 0 0 15px;
   right: 0;
 }

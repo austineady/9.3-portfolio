@@ -23,10 +23,10 @@ $(window).scroll(function() {
   }
   if(scrollTop >= 728) {
     $('.js-navbar').addClass('fixed');
-    $('.box-1').css('padding-top', '60px');
+    $('.box-3').css('padding-top', '60px');
   } else {
     $('.js-navbar').removeClass('fixed');
-    $('.box-1').css('padding-top', '0px');
+    $('.box-3').css('padding-top', '0px');
 
   }
 });

@@ -23,29 +23,82 @@
     </div>
   </div>
   <div class="main-content">
-  <div class="portfolio-box box-1" id="intro">
-          <div class="js-navbar">
-            <nav class="navbar">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="nav-menu nav-home nav-active"><a data-scroll href="#home">Home</a></li>
-                    <li class="nav-menu nav-work"><a data-scroll href="#work">Work</a></li>
-                    <li class="nav-menu nav-about"><a data-scroll href="#about">About</a></li>
-                    <li class="nav-menu nav-contact"><a data-scroll href="#contact">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+    <span id="work"></span>
+    <div class="portfolio-box box-3">
+      <div class="js-navbar">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="nav-menu nav-home nav-active"><a data-scroll href="#home">Home</a></li>
+                <li class="nav-menu nav-work"><a data-scroll href="#work">Work</a></li>
+                <li class="nav-menu nav-about"><a data-scroll href="#about">About</a></li>
+                <li class="nav-menu nav-contact"><a data-scroll href="#contact">Contact</a></li>
+              </ul>
+            </div>
           </div>
+        </nav>
+      </div>
+      <h1 class="work-head">Portfolio</h1>
+      <h5 class="work-subtext">Click a project to find out more</h5>
+      <div class="tab-box">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+          <li role="presentation"><a href="#applications" aria-controls="applications" role="tab" data-toggle="tab">Applications</a></li>
+          <li role="presentation"><a href="#websites" aria-controls="websites" role="tab" data-toggle="tab">Websites</a></li>
+          <li role="presentation"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="all">
+            <div class="project-card project1 animated" data-toggle="modal" data-target="#project1">
+              <div class="project-overlay">Woodside Plantation</div>
+            </div>
+            <div class="project-card project2 animated" data-toggle="modal" data-target="#project2">
+              <div class="project-overlay">REI Email Template</div>
+            </div>
+            <div class="project-card project3 animated" data-toggle="modal" data-target="#project3">
+              <div class="project-overlay">Wishbone</div>
+            </div>
+            <div class="project-card project4 animated" data-toggle="modal" data-target="#project4">
+              <div class="project-overlay">The Three Broomsticks</div>
+            </div>
+            <!-- <div class="project-card animated"></div>
+            <div class="project-card animated"></div> -->
+          </div>
+          <div role="tabpanel" class="tab-pane" id="applications">
+            <div class="project-card project3 animated fadeInRight" data-toggle="modal" data-target="#project3">
+              <div class="project-overlay">Wishbone</div>
+            </div>
+            <div class="project-card project4 animated fadeInRight" data-toggle="modal" data-target="#project4">
+              <div class="project-overlay">The Three Broomsticks</div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="websites">
+            <div class="project-card project1 animated fadeInRight" data-toggle="modal" data-target="#project1">
+              <div class="project-overlay">Woodside Plantation</div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="design">
+            <div class="project-card project2 animated fadeInRight" data-toggle="modal" data-target="#project2">
+              <div class="project-overlay">REI Email Template</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="portfolio-box box-1">
           <div class="recent-projects">
             <h2 class="display-head">What can I do for you?</h2>
                           <h2 class="application-head">Web Applications</h2>
@@ -64,33 +117,21 @@
                 <li class="feature">
                   <i class="fa fa-cloud feature-icon"></i>
                   <ul class="feature-head">Data Integration
-                  <li class="feature-text">Experience with over 12 different APIs</li>
-                  <li class="feature-text">Using JSON to bring in and parse data</li>
-                  <li class="feature-text">Familiar with AJAX and RESTful methods</li>
+                  <li class="feature-text">Experience with API's such as Best Buy, Amazon, and Google Maps</li>
+                  <li class="feature-text">AJAX and RESTful methods</li>
                   </ul>
                 </li>
                 <li class="feature">
                   <i class="fa fa-code feature-icon"></i>
                   <ul class="feature-head">MVC Frameworks
                   <li class="feature-text">Backbone with Handlebars data binding</li>
-                  <li class="feature-text">Ember for bigger projects with more extensive data</li>
-                  <li class="feature-text">Currently learning and building with Angular</li>
+                  <li class="feature-text">Ember and Angular for bigger projects with more extensive data</li>
                   </ul>
                 </li>
                 <li class="feature">
                   <i class="fa fa-users feature-icon"></i>
                   <ul class="feature-head">User Capabilities
-                  <li class="feature-text">Secured login and authentication</li>
-                  <li class="feature-text">Local storage for holding session tokens</li>
-                  <li class="feature-text">User interaction such as friend lists and likes</li>
-                  </ul>
-                </li>
-                <li class="feature">
-                  <i class="fa fa-pencil-square-o feature-icon"></i>
-                  <ul class="feature-head">CRUD Functionality
-                  <li class="feature-text">Have users create profiles and save data</li>
-                  <li class="feature-text">Update and quickly see data changes</li>
-                  <li class="feature-text">Personalize by allowing users to delete and manage saved data</li>
+                  <li class="feature-text">Secured login and user authentication</li>
                   </ul>
                 </li>
               </ul>
@@ -118,7 +159,7 @@
         <li class="feature animated dark-text">
           <img src="./assets/photoshop.png" class="static-image">
           <ul class="static-head dark-text">Adobe Photoshop
-            <li class="feature-text dark-text">PSD to responsive website</li>
+            <li class="feature-text dark-text">PSD to Website</li>
             <li class="feature-text dark-text">Website mockups before building</li>
             <li class="feature-text dark-text">Web assets and 3D website presentation</li>
           </ul>
@@ -135,67 +176,13 @@
           <img src="./assets/js.jpg" class="static-image">
           <ul class="static-head dark-text">Javascript and jQuery
             <li class="feature-text dark-text">Modals, dropdowns, scroll events, jQuery class transitions, etc.</li>
-            <li class="feature-text dark-text">JS logic such as game mechanics and mathemathical problem solving</li>
           </ul>
         </li>
       </ul>
-      <span id="work"></span>
     </div>
   </div>
-  <div class="portfolio-box box-3">
-    <h1 class="work-head">Portfolio</h1>
-    <h5 class="work-subtext">Click a project to find out more</h5>
-    <div class="tab-box">
-
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
-        <li role="presentation"><a href="#applications" aria-controls="applications" role="tab" data-toggle="tab">Applications</a></li>
-        <li role="presentation"><a href="#websites" aria-controls="websites" role="tab" data-toggle="tab">Websites</a></li>
-        <li role="presentation"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a></li>
-      </ul>
-
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="all">
-          <div class="project-card project1 animated" data-toggle="modal" data-target="#project1">
-            <div class="project-overlay">Woodside Plantation</div>
-          </div>
-          <div class="project-card project2 animated" data-toggle="modal" data-target="#project2">
-            <div class="project-overlay">REI Email Template</div>
-          </div>
-          <div class="project-card project3 animated" data-toggle="modal" data-target="#project3">
-            <div class="project-overlay">Wishbone</div>
-          </div>
-          <div class="project-card project4 animated" data-toggle="modal" data-target="#project4">
-            <div class="project-overlay">The Three Broomsticks</div>
-          </div>
-          <!-- <div class="project-card animated"></div>
-          <div class="project-card animated"></div> -->
-        </div>
-        <div role="tabpanel" class="tab-pane" id="applications">
-          <div class="project-card project3 animated fadeInRight" data-toggle="modal" data-target="#project3">
-            <div class="project-overlay">Wishbone</div>
-          </div>
-          <div class="project-card project4 animated fadeInRight" data-toggle="modal" data-target="#project4">
-            <div class="project-overlay">The Three Broomsticks</div>
-          </div>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="websites">
-          <div class="project-card project1 animated fadeInRight" data-toggle="modal" data-target="#project1">
-            <div class="project-overlay">Woodside Plantation</div>
-          </div>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="design">
-          <div class="project-card project2 animated fadeInRight" data-toggle="modal" data-target="#project2">
-            <div class="project-overlay">REI Email Template</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <span id="about"></span>
   <div class="bio-box">
-    <span id="about"></span>
     <div class="about-box">
       <img src="./assets/headshot.jpg" class="headshot">
       <h3 class="about-text">My name is Austin Eady.

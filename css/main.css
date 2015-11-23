@@ -924,4 +924,7 @@ ul.list-inline {
   .top-head {
     margin-top: 40px;
   }
+  .continue-button {
+    margin-top: 120px;
+  }
 }

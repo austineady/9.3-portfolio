@@ -303,11 +303,8 @@ p {
 
 .bio-box {
   margin-top: 150px;
-  width: 100%;
   background-color: white;
   text-align: center;
-  height: auto;
-  box-shadow: inset 3px 0 7px 3px rgba(0, 0, 0, .3);
 }
 
 .headshot {
@@ -942,10 +939,7 @@ ul.list-inline {
   }
   .display-options {
     margin-bottom: 0;
-  }
-  .bio-box {
-    width: 100%;
-    text-align: center;
+    width: 90%;
   }
   .about-box {
     width: 95%;

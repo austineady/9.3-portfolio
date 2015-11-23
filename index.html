@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Austin Eady's Portfolio</title>
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700|Bangers|Permanent+Marker' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/animate.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" media="max-width:600px" href="./css/mobile.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="fullscreen" id="home">
+    <div class="content-a">
+        <div class="content-b animated">
+            <h1 class="animated fadeIn top-head">Austin Eady</h1>
+            <h3 class="animated fadeInUp top-sub">Junior Front-End Engineer</h3>
+            <a href="#intro"><button class="continue-button animated infinite"><i class="fa fa-chevron-down"></i></button></a>
+        </div>
+    </div>
+  </div>
+  <div class="main-content">
+  <div class="portfolio-box box-1" id="intro">
+          <div class="js-navbar">
+            <nav class="navbar">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="nav-menu nav-home nav-active"><a data-scroll href="#home">Home</a></li>
+                    <li class="nav-menu nav-work"><a data-scroll href="#work">Work</a></li>
+                    <li class="nav-menu nav-about"><a data-scroll href="#about">About</a></li>
+                    <li class="nav-menu nav-contact"><a data-scroll href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="recent-projects">
+            <h2 class="display-head">What can I do for you?</h2>
+                          <h2 class="application-head">Web Applications</h2>
+            <div class="display-box">
+              <div class="imac-box animated hidden">
+                <img src="./assets/web-application.png" class="img-responsive img-centered">
+                <div class="display-options">
+                  <div class="arrow-up"></div>
+                  <div class="display-name">Wishbone - Backbone App</div>
+                  <div class="display-code" data-toggle="modal" data-target="#project3">See More</div>
+                </div>
+              </div>
+            <div class="portfolio-grid animated">
+              <h2 class="application-slogan">Do you need to incorporate data into an application?</h2>
+              <ul class="application-features">
+                <li class="feature">
+                  <i class="fa fa-cloud feature-icon"></i>
+                  <ul class="feature-head">Data Integration
+                  <li class="feature-text">Experience with over 12 different APIs</li>
+                  <li class="feature-text">Using JSON to bring in and parse data</li>
+                  <li class="feature-text">Familiar with AJAX and RESTful methods</li>
+                  </ul>
+                </li>
+                <li class="feature">
+                  <i class="fa fa-code feature-icon"></i>
+                  <ul class="feature-head">MVC Frameworks
+                  <li class="feature-text">Backbone with Handlebars data binding</li>
+                  <li class="feature-text">Ember for bigger projects with more extensive data</li>
+                  <li class="feature-text">Currently learning and building with Angular</li>
+                  </ul>
+                </li>
+                <li class="feature">
+                  <i class="fa fa-users feature-icon"></i>
+                  <ul class="feature-head">User Capabilities
+                  <li class="feature-text">Secured login and authentication</li>
+                  <li class="feature-text">Local storage for holding session tokens</li>
+                  <li class="feature-text">User interaction such as friend lists and likes</li>
+                  </ul>
+                </li>
+                <li class="feature">
+                  <i class="fa fa-pencil-square-o feature-icon"></i>
+                  <ul class="feature-head">CRUD Functionality
+                  <li class="feature-text">Have users create profiles and save data</li>
+                  <li class="feature-text">Update and quickly see data changes</li>
+                  <li class="feature-text">Personalize by allowing users to delete and manage saved data</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span id="static"></span>
+        </div>
+        <a href="#static"><div class="continue-circle">
+          <i class="fa fa-chevron-down"></i>
+        </div></a>
+  </div>
+  <div class="portfolio-box box-2">
+    <div class="project-text project-2-left animated hidden">
+      <h2 class="application-head dark-text">Website Development</h2>
+      <div class="project-image project-2-right animated hidden">
+        <img src="./assets/static.png" alt="" class="img-responsive img-centered">
+      </div>
+      <div class="display-options blue">
+        <div class="arrow-up blue-arrow"></div>
+        <div class="display-name white">Woodside Plantation - PSD</div>
+        <div class="display-code white" data-toggle="modal" data-target="#project1">See More</div>
+      </div>
+      <h4 class="application-slogan dark-text">Do you already have an idea or design that needs to be built?</h4>
+      <ul class="application-features dark-text">
+        <li class="feature animated dark-text">
+          <img src="./assets/photoshop.png" class="static-image">
+          <ul class="static-head dark-text">Adobe Photoshop
+            <li class="feature-text dark-text">PSD to responsive website</li>
+            <li class="feature-text dark-text">Website mockups before building</li>
+            <li class="feature-text dark-text">Web assets and 3D website presentation</li>
+          </ul>
+        </li>
+        <li class="feature animated dark-text">
+          <img src="./assets/css3-logo.png" class="static-image">
+          <ul class="static-head dark-text">CSS Styling
+            <li class="feature-text dark-text">Parallax, animations, 3D shadow effects</li>
+            <li class="feature-text dark-text">Bootstrap usage and customization</li>
+            <li class="feature-text dark-text">Responsive media queries and fallbacks</li>
+          </ul>
+        </li>
+        <li class="feature animated dark-text">
+          <img src="./assets/js.jpg" class="static-image">
+          <ul class="static-head dark-text">Javascript and jQuery
+            <li class="feature-text dark-text">Modals, dropdowns, scroll events, jQuery class transitions, etc.</li>
+            <li class="feature-text dark-text">JS logic such as game mechanics and mathemathical problem solving</li>
+          </ul>
+        </li>
+      </ul>
+      <span id="work"></span>
+    </div>
+  </div>
+  <div class="portfolio-box box-3">
+    <h1 class="work-head">Portfolio</h1>
+    <h5 class="work-subtext">Click a project to find out more</h5>
+    <div class="tab-box">
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+        <li role="presentation"><a href="#applications" aria-controls="applications" role="tab" data-toggle="tab">Applications</a></li>
+        <li role="presentation"><a href="#websites" aria-controls="websites" role="tab" data-toggle="tab">Websites</a></li>
+        <li role="presentation"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="all">
+          <div class="project-card project1 animated" data-toggle="modal" data-target="#project1">
+            <div class="project-overlay">Woodside Plantation</div>
+          </div>
+          <div class="project-card project2 animated" data-toggle="modal" data-target="#project2">
+            <div class="project-overlay">REI Email Template</div>
+          </div>
+          <div class="project-card project3 animated" data-toggle="modal" data-target="#project3">
+            <div class="project-overlay">Wishbone</div>
+          </div>
+          <div class="project-card project4 animated" data-toggle="modal" data-target="#project4">
+            <div class="project-overlay">The Three Broomsticks</div>
+          </div>
+          <!-- <div class="project-card animated"></div>
+          <div class="project-card animated"></div> -->
+        </div>
+        <div role="tabpanel" class="tab-pane" id="applications">
+          <div class="project-card project3 animated fadeInRight" data-toggle="modal" data-target="#project3">
+            <div class="project-overlay">Wishbone</div>
+          </div>
+          <div class="project-card project4 animated fadeInRight" data-toggle="modal" data-target="#project4">
+            <div class="project-overlay">The Three Broomsticks</div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="websites">
+          <div class="project-card project1 animated fadeInRight" data-toggle="modal" data-target="#project1">
+            <div class="project-overlay">Woodside Plantation</div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="design">
+          <div class="project-card project2 animated fadeInRight" data-toggle="modal" data-target="#project2">
+            <div class="project-overlay">REI Email Template</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bio-box">
+    <span id="about"></span>
+    <div class="about-box">
+      <img src="./assets/headshot.jpg" class="headshot">
+      <h3 class="about-text">My name is Austin Eady.
+        I'm 23 years old currently living in Greenville, SC.
+        After graduating with a degree in Finance,
+        I knew I needed more creativity in my career.
+        I entered into The Iron Yard's
+        intense Front-End Engineering course and
+        though I am currently job hunting, I am also doing
+        freelance work on the side. My goal is to impact people's
+        lives with whatever I build.
+      </h3>
+    </div>
+    <section id="contact" class="contact-box">
+      <div class="container">
+        <div class="row">
+          <h2 class="contact-text">Say Hello!</h2>
+        </div>
+        <div class="row">
+          <form class="contact-form" action="//formspree.io/austindanieleady@gmail.com" method="POST">
+            <h3 class="contact-text">Name</h3>
+            <input type="text" class="contact-input" name="name" placeholder="e.g. Jim Halpert">
+            <h3 class="contact-text">Email</h3>
+            <input type="text" class="contact-input" name="_replyto" placeholder="e.g. jimhalpert@dundermifflin.com">
+            <h3 class="contact-text">Message</h3>
+            <textarea class="contact-textarea" placeholder="e.g. Hey Austin, I want to run an application idea by you and see if you'd be interested in building it. I look forward to hearing back!"></textarea>
+            <input type="submit" value="Send" class="contact-send">
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright © austineady.com 2015</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://github.com/austineady"><i class="fa fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/austin.eady.1"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/pub/austin-eady/95/7/204"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</div>
+</div>
+
+  <a href="#home"><div class="backtotop">
+    <i class="fa fa-chevron-up"></i>
+  </div></a>
+
+<!--MODAL BOXES-->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal" aria-label="Close">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Woodside Plantation</h2>
+              <img src="./assets/woodside.png" class="img-responsive img-centered" alt="One-page image of Woodside Plantation website">
+              <p>Woodside Plantation was done as a freelance project requiring me use provided asset images with a PSD to develop a website. This project taught me a lot about what works repsonsively between desktop and mobile, especially with keeping content centered and scaled appropriately.</p>
+              <ul class="list-inline">
+                <li><a href="woodsidefallsavings.com"><button class="project-option"><i class="fa fa-external-link"></i> Live</button></a></li>
+                <li><a href="https://github.com/austineady/tst-psd-master"><button class="project-option"><i class="fa fa-github"></i> Code</button></a></li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default bottom-close" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade in" id="project2" tabindex="-1" role="dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal" aria-label="Close">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>REI Template</h2>
+              <img src="./assets/full-page-rei.png" class="img-responsive img-centered" alt="One page REI-Template">
+              <p>HTML email can be tricky because of how many different email clients there are to consider. This project was done both in practice working in photoshop and practice working with HTML email syntax and best practices.</p>
+                <ul class="list-inline">
+                  <li><a href="http://austineady.github.io/rei-email-template/"><button class="project-option"><i class="fa fa-external-link"></i> Live</button></a></li>
+                  <li><a href="https://github.com/austineady/rei-email-template"><button class="project-option"><i class="fa fa-github"></i> Code</button></a></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade in" id="project3" tabindex="-1" role="dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal" aria-label="Close">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <div class="row">
+                <h2>Wishbone</h2>
+              </div>
+              <img src="./assets/wishbone-landing.png" class="img-responsive img-centered" alt="Image of Wishbone application">
+              <img src="./assets/wishbone-list.png" class="img-responsive img-centered" alt="Image of Wishbone application">
+              <img src="./assets/wishbone-feed.png" class="img-responsive img-centered" alt="Image of Wishbone application">
+              <img src="./assets/wishbone-modal.png" class="img-responsive img-centered" alt="Image of Wishbone application">
+              <p>Wishbone is a Backbone application that was made in three weeks for <a href="theironyard.com/">The Iron Yard's</a> final-project demonstration. My goal was to develop an application that helped users keep track of the products that they want but also keep track of the products that their friends are interested in.</p>
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <ul class="project-features">The assignment required that apps:
+                    <li>used an MVC framework</li>
+                    <li> communicated with at least one HTTP API</li>
+                    <li> featured CRUD functionality</li>
+                    <li> included User Authorization and Authentication</li>
+                    <li> adapted repsonsively to mobile and desktop</li>
+                    <li> showcased the ability to plan and execute the production of a Front-End application</li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="list-inline">
+                <li><a href="https://austineady.github.io/final-project"><button class="project-option"><i class="fa fa-external-link"></i> live</button></a></li>
+                <li><a href="https://github.com/austineady/final-project"><button class="project-option"><i class="fa fa-github"></i> GitHub</button></a></li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="project4" class="modal fade in" tabindex="-1" role="dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal" aria-label="Close">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>The Three Broomsticks</h2>
+              <img src="./assets/threebroomlanding.png" class="img-responsive img-centered" alt="Image of shopping cart application">
+              <img src="./assets/threebroomdistillery.png" class="img-responsive img-centered" alt="Image of shopping cart application">
+              <img src="./assets/threebroomlist.png" class="img-responsive img-centered" alt="Image of shopping cart application">
+              <img src="./assets/threebroomcart.png" class="img-responsive img-centered" alt="Image of shopping cart application">
+              <p>I wanted to bring a personalized twist to the assignment of making a restaurant app with cart and checkout funcitonality. This was made over the weekend after learning Backbone and gave me practice using Parse as a back-end and Jquery to toggle classes.</p>
+              <ul class="list-inline">
+                <li><a href="https://austineady.github.io/7.4-three-broomsticks"><button class="project-option"><i class="fa fa-external-link"></i> live</button></a></li>
+                <li><a href="https://github.com/austineady/7.4-three-broomsticks"><button class="project-option"><i class="fa fa-github"></i> GitHub</button></a></li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

@@ -38,7 +38,6 @@ $('.project-card').click(function() {
       'color': 'rgba(255, 255, 255, 1)',
       'font-size': '20px',
       'transition': '1s',
-    }
   })
 });
 

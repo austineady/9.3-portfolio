@@ -33,10 +33,6 @@ $(window).scroll(function() {
 
 $('a').smoothScroll();
 
-$('.continue-button').hover(function() {
-  $('.continue-button').toggleClass('pulse')
-});
-
 $('.navtabs a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')

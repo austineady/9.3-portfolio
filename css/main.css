@@ -921,4 +921,7 @@ ul.list-inline {
   .js-navbar {
     position: fixed;
   }
+  .top-head {
+    margin-top: 40px;
+  }
 }

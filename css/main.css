@@ -299,6 +299,9 @@ p {
 }
 
 .bio-box {
+  width: 94%;
+  min-width: 390px;
+  margin: 0 auto;
   margin-top: 150px;
   background-color: white;
   text-align: center;

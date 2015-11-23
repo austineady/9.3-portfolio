@@ -568,15 +568,10 @@ p {
 }
 
 .about-text {
-  vertical-align: top;
   position: relative;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 18px;
   bottom: 75px;
-}
-
-.hobbies-text {
-  margin-top: 15px;
 }
 
 .contact-text {
@@ -905,20 +900,10 @@ ul.list-inline {
     margin-bottom: 0;
     width: 90%;
   }
-  .about-box {
-    width: 90%;
-    text-align: center;
-  }
   .about-box h3 {
     font-size: 18px;
   }
   .project-highlight {
     width: 385px;
-  }
-  .contact-input {
-    width: 90%;
-  }
-  .contact-textarea {
-    width: 90%;
   }
 }

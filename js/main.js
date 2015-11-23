@@ -31,6 +31,17 @@ $(window).scroll(function() {
   }
 });
 
+$('.project-card').click(function() {
+  this.$('.project-overlay').css({
+      'top': '0',
+      'opacity': '1',
+      'color': 'rgba(255, 255, 255, 1)',
+      'font-size': '20px',
+      'transition': '1s',
+    }
+  })
+});
+
 $('a').smoothScroll();
 
 $('.navtabs a').click(function (e) {

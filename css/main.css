@@ -907,4 +907,18 @@ ul.list-inline {
   .project-highlight {
     width: 385px;
   }
+  .contact-input {
+    width: 340px;
+    font-size: 18px;
+  }
+  .contact-textarea {
+    width: 340px;
+    font-size: 18px;
+  }
+  .about-box {
+    min-width: 370px;
+  }
+  .js-navbar {
+    position: fixed;
+  }
 }

@@ -335,7 +335,7 @@ p {
   margin-top: 30px;
   color: white;
   text-align: center;
-  width:  100%;
+  width:  90%;
   padding-bottom: 20px;
   padding-top: 10px;
   height: auto;
@@ -910,7 +910,7 @@ ul.list-inline {
     width: 90%;
   }
   .about-box {
-    width: 95%;
+    width: 90%;
     text-align: center;
   }
   .about-box h3 {
